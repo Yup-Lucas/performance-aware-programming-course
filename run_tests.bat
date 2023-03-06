@@ -24,7 +24,7 @@ echo[
 echo[
 echo[
 
-rem %nasm_binary% ..\tests\listing_0040_challenge_movs.asm -o listing_0040_challenge_movs
-rem ..\build\disasm8086.exe listing_0040_challenge_movs
+%nasm_binary% ..\tests\listing_0040_challenge_movs.asm -o listing_0040_challenge_movs
+..\build\disasm8086.exe listing_0040_challenge_movs
 
 popd
